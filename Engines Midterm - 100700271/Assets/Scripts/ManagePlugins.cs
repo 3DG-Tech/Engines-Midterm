@@ -18,7 +18,7 @@ public class ManagePlugins : MonoBehaviour
     private static extern float GetTotalTime();
 
     [DllImport(DLL_NAME)]
-    private static extern float GetCheckpointTime(int index);
+    private static extern float GetCheckpoiintTime(int index);
 
     [DllImport(DLL_NAME)]
     private static extern int GetNumCheckpoints();
@@ -38,7 +38,7 @@ public class ManagePlugins : MonoBehaviour
         }
         else
         {
-            return GetCheckpointTime(index);
+            return GetCheckpoiintTime(index);
         }
     }
 
@@ -63,6 +63,7 @@ public class ManagePlugins : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("space pressed");
             float currentTime = Time.time;
             float checkpointTime = currentTime = lastTime;
             lastTime = currentTime;
