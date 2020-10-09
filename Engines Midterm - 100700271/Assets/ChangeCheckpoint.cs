@@ -12,6 +12,8 @@ public class ChangeCheckpoint : MonoBehaviour
     {
         if (other.gameObject == Player)
         {
+            Renderer render = GetComponent<Renderer>();
+            render.material.color = Color.green;
             Destroy(previousCheckpoint);
            
         }

@@ -12,7 +12,7 @@ public class DestroyPlatform : MonoBehaviour
     {
         if (other.gameObject == Player)
         {
-            Debug.Log("hitting");
+            //Debug.Log("hitting");
            Destroy(Platform1);
         }
     }
