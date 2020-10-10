@@ -64,4 +64,9 @@ public class ManagePlugins : MonoBehaviour
        
     }
 
+    void OnDestroy()
+    {
+        ResetLogger();
+    }
+
 }
