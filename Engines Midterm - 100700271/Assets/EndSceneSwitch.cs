@@ -11,6 +11,8 @@ public class EndSceneSwitch : MonoBehaviour
 
     public GameObject End;
 
+    public GameObject plugins;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == Player)

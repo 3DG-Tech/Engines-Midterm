@@ -1020,6 +1020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousCheckpoint: {fileID: 1131594444}
   Player: {fileID: 2136202658}
+  plugins: {fileID: 1710173961}
 --- !u!1001 &247496459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4771,6 +4772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousCheckpoint: {fileID: 770269974}
   Player: {fileID: 2136202658}
+  plugins: {fileID: 1710173961}
 --- !u!4 &972370077 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477030707949804, guid: 00debf980412c49418327c56a1a60db0, type: 3}
@@ -7138,6 +7140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousCheckpoint: {fileID: 1584583127}
   Player: {fileID: 2136202658}
+  plugins: {fileID: 1710173961}
 --- !u!1001 &1526694389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7859,6 +7862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousCheckpoint: {fileID: 1809039927}
   Player: {fileID: 2136202658}
+  plugins: {fileID: 1710173961}
 --- !u!1 &1658822987
 GameObject:
   m_ObjectHideFlags: 0
@@ -8493,6 +8497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 2136202658}
   End: {fileID: 1787200759}
+  plugins: {fileID: 1710173961}
 --- !u!1001 &1794086806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10407,6 +10412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousCheckpoint: {fileID: 1032129601}
   Player: {fileID: 2136202658}
+  plugins: {fileID: 1710173961}
 --- !u!1001 &2074438895
 PrefabInstance:
   m_ObjectHideFlags: 0
