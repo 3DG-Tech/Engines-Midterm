@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
 
+
 public class ManagePlugins : MonoBehaviour
 {
 
@@ -61,28 +62,28 @@ public class ManagePlugins : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log("space pressed");
-            float currentTime = Time.time;
-            float checkpointTime = currentTime = lastTime;
-            lastTime = currentTime;
+        //if ()
+        //{
+        //   //Debug.Log("space pressed");
+        //    float currentTime = Time.time;
+        //    float checkpointTime = currentTime = lastTime;
+        //    lastTime = currentTime;
 
-            SaveTimeTest(checkpointTime);
-        }
+        //    SaveTimeTest(checkpointTime);
+        //}
 
-        for(int i = 0; i <10; i++)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha0 + i))
-            {
-                Debug.Log(LoadTimeTest(i));
-            }
-        }
+        //for(int i = 0; i <10; i++)
+        //{
+        //    if (Input.GetKeyDown(KeyCode.Alpha0 + i))
+        //    {
+        //        Debug.Log(LoadTimeTest(i));
+        //    }
+        //}
 
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            Debug.Log(LoadTotalTimeTest());
-        }
+        //if (Input.GetKeyDown(KeyCode.T))
+        //{
+        //    Debug.Log(LoadTotalTimeTest());
+        //}
     }
 
 }
